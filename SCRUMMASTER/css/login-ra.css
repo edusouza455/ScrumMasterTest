@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:#1c4c8c;
+    position: relative;
+}
+#box-login{
+    width: 380px;
+    height: 450px;
+    top: 150px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    position: relative;
+}
+.content-img{
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 125px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #258BCB;
+    position: absolute;
+}
+.content-img img{
+    height: 100%;
+    
+}
+.content-titulo{
+    margin-top: 185px;
+    text-align: center;
+}
+.content-titulo h2{
+    font-weight: 200;
+}
+.content-form{
+    width: 90%;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.name{
+    font-size: 30px;
+    display: block;
+    padding: 10px;
+}
+#input-usuario{
+    margin-bottom: 30px;
+}
+.input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.titulo-e-input{
+    display: flex;
+}
+.icon{
+    width: 40px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #d9d9d9;
+    position: relative;
+}
+.icone{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.buttom{
+    height: 30px;
+    border-radius: 5px;
+    background-color: #0c6cfc;
+    text-align: center;
+    margin-top: 20px;
+    transition: .3s;
+}
+.buttom:hover{
+    background-color: #0a47a2;
+    transition: .3s;
+}
+.buttom button{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff00;
+    cursor: pointer;
+}
+.page-principal{
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px;
+    text-align: center;
+    position: absolute;
+}
+.page-principal a{
+    padding: 5px;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.falha-ao-logar{
+    width: 100vw;
+    height: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    position: absolute;
+    padding: 5px;
+    color: #000;
+    background-color:#fcf4cc;
+}
+.falha-ao-logar p{
+    margin-top: 30px;
+}
+
+@media (max-width:400px) {
+    .content-titulo{
+        display: none;
+    }
+    .content-titulo h2{
+   display: none;     
+    }
+    #box-login{
+        width: 320px;
+        height: 390px;
+    }
+}
+@media (max-width:350px) {
+    #box-login{
+        width: 290px;
+        height: 350px;
+    }
+    .content-img{
+        top: 20px;
+        height: 90px;
+    }
+}
